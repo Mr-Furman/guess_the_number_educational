@@ -9,9 +9,7 @@ class Digit_for_game():
         self.number = number
         self.life = life
         
-
-
-
+        
     def guess_the_number(self) -> None:
         try:
             try:
@@ -35,8 +33,6 @@ class Digit_for_game():
             pass
 
 
-
 test = Digit_for_game(3, 7)
 test.guess_the_number()
-
 
