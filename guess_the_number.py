@@ -1,4 +1,3 @@
-from asyncore import read
 import random
 
 number_which_we_search = random.randint(1, 100)
